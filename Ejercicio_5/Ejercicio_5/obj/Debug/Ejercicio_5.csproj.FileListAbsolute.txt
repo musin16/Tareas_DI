@@ -1,0 +1,9 @@
+C:\Users\usuario\source\repos\Examen_1_Camacho_Mouhcine_EL_Qaddoury\Ejercicio_5\Ejercicio_5\bin\Debug\Ejercicio_5.exe
+C:\Users\usuario\source\repos\Examen_1_Camacho_Mouhcine_EL_Qaddoury\Ejercicio_5\Ejercicio_5\bin\Debug\Ejercicio_5.pdb
+C:\Users\usuario\source\repos\Examen_1_Camacho_Mouhcine_EL_Qaddoury\Ejercicio_5\Ejercicio_5\obj\Debug\Ejercicio_5.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\Examen_1_Camacho_Mouhcine_EL_Qaddoury\Ejercicio_5\Ejercicio_5\obj\Debug\Ejercicio_5.Form1.resources
+C:\Users\usuario\source\repos\Examen_1_Camacho_Mouhcine_EL_Qaddoury\Ejercicio_5\Ejercicio_5\obj\Debug\Ejercicio_5.Properties.Resources.resources
+C:\Users\usuario\source\repos\Examen_1_Camacho_Mouhcine_EL_Qaddoury\Ejercicio_5\Ejercicio_5\obj\Debug\Ejercicio_5.csproj.GenerateResource.cache
+C:\Users\usuario\source\repos\Examen_1_Camacho_Mouhcine_EL_Qaddoury\Ejercicio_5\Ejercicio_5\obj\Debug\Ejercicio_5.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\Examen_1_Camacho_Mouhcine_EL_Qaddoury\Ejercicio_5\Ejercicio_5\obj\Debug\Ejercicio_5.exe
+C:\Users\usuario\source\repos\Examen_1_Camacho_Mouhcine_EL_Qaddoury\Ejercicio_5\Ejercicio_5\obj\Debug\Ejercicio_5.pdb
