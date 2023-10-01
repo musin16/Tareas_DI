@@ -1,0 +1,12 @@
+C:\Users\MOUHCINE\source\repos\CRUD_ALTURA\CRUD_ALTURA\obj\Debug\CRUD_ALTURA.csproj.AssemblyReference.cache
+C:\Users\MOUHCINE\source\repos\CRUD_ALTURA\CRUD_ALTURA\obj\Debug\CRUD_ALTURA.Form1.resources
+C:\Users\MOUHCINE\source\repos\CRUD_ALTURA\CRUD_ALTURA\obj\Debug\CRUD_ALTURA.Properties.Resources.resources
+C:\Users\MOUHCINE\source\repos\CRUD_ALTURA\CRUD_ALTURA\obj\Debug\CRUD_ALTURA.csproj.GenerateResource.cache
+C:\Users\MOUHCINE\source\repos\CRUD_ALTURA\CRUD_ALTURA\obj\Debug\CRUD_ALTURA.csproj.CoreCompileInputs.cache
+C:\Users\MOUHCINE\source\repos\CRUD_ALTURA\CRUD_ALTURA\bin\Debug\CRUD_ALTURA.exe.config
+C:\Users\MOUHCINE\source\repos\CRUD_ALTURA\CRUD_ALTURA\bin\Debug\CRUD_ALTURA.exe
+C:\Users\MOUHCINE\source\repos\CRUD_ALTURA\CRUD_ALTURA\bin\Debug\CRUD_ALTURA.pdb
+C:\Users\MOUHCINE\source\repos\CRUD_ALTURA\CRUD_ALTURA\bin\Debug\MySql.Data.dll
+C:\Users\MOUHCINE\source\repos\CRUD_ALTURA\CRUD_ALTURA\obj\Debug\CRUD_ALTURA.csproj.CopyComplete
+C:\Users\MOUHCINE\source\repos\CRUD_ALTURA\CRUD_ALTURA\obj\Debug\CRUD_ALTURA.exe
+C:\Users\MOUHCINE\source\repos\CRUD_ALTURA\CRUD_ALTURA\obj\Debug\CRUD_ALTURA.pdb
