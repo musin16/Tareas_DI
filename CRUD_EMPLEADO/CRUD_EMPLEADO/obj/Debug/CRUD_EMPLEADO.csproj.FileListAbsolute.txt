@@ -1,0 +1,12 @@
+C:\Users\MOUHCINE\source\repos\CRUD_EMPLEADO\CRUD_EMPLEADO\bin\Debug\CRUD_EMPLEADO.exe.config
+C:\Users\MOUHCINE\source\repos\CRUD_EMPLEADO\CRUD_EMPLEADO\bin\Debug\CRUD_EMPLEADO.exe
+C:\Users\MOUHCINE\source\repos\CRUD_EMPLEADO\CRUD_EMPLEADO\bin\Debug\CRUD_EMPLEADO.pdb
+C:\Users\MOUHCINE\source\repos\CRUD_EMPLEADO\CRUD_EMPLEADO\bin\Debug\MySql.Data.dll
+C:\Users\MOUHCINE\source\repos\CRUD_EMPLEADO\CRUD_EMPLEADO\obj\Debug\CRUD_EMPLEADO.csproj.AssemblyReference.cache
+C:\Users\MOUHCINE\source\repos\CRUD_EMPLEADO\CRUD_EMPLEADO\obj\Debug\CRUD_EMPLEADO.Form1.resources
+C:\Users\MOUHCINE\source\repos\CRUD_EMPLEADO\CRUD_EMPLEADO\obj\Debug\CRUD_EMPLEADO.Properties.Resources.resources
+C:\Users\MOUHCINE\source\repos\CRUD_EMPLEADO\CRUD_EMPLEADO\obj\Debug\CRUD_EMPLEADO.csproj.GenerateResource.cache
+C:\Users\MOUHCINE\source\repos\CRUD_EMPLEADO\CRUD_EMPLEADO\obj\Debug\CRUD_EMPLEADO.csproj.CoreCompileInputs.cache
+C:\Users\MOUHCINE\source\repos\CRUD_EMPLEADO\CRUD_EMPLEADO\obj\Debug\CRUD_EMPLEADO.csproj.CopyComplete
+C:\Users\MOUHCINE\source\repos\CRUD_EMPLEADO\CRUD_EMPLEADO\obj\Debug\CRUD_EMPLEADO.exe
+C:\Users\MOUHCINE\source\repos\CRUD_EMPLEADO\CRUD_EMPLEADO\obj\Debug\CRUD_EMPLEADO.pdb
