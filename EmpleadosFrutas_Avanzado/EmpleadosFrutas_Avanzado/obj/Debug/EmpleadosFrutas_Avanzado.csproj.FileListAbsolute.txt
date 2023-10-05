@@ -1,0 +1,14 @@
+C:\Users\MOUHCINE\source\repos\EmpleadosFrutas_Avanzado\EmpleadosFrutas_Avanzado\bin\Debug\EmpleadosFrutas_Avanzado.exe.config
+C:\Users\MOUHCINE\source\repos\EmpleadosFrutas_Avanzado\EmpleadosFrutas_Avanzado\bin\Debug\EmpleadosFrutas_Avanzado.exe
+C:\Users\MOUHCINE\source\repos\EmpleadosFrutas_Avanzado\EmpleadosFrutas_Avanzado\bin\Debug\EmpleadosFrutas_Avanzado.pdb
+C:\Users\MOUHCINE\source\repos\EmpleadosFrutas_Avanzado\EmpleadosFrutas_Avanzado\obj\Debug\EmpleadosFrutas_Avanzado.csproj.AssemblyReference.cache
+C:\Users\MOUHCINE\source\repos\EmpleadosFrutas_Avanzado\EmpleadosFrutas_Avanzado\obj\Debug\EmpleadosFrutas_Avanzado.Form1.resources
+C:\Users\MOUHCINE\source\repos\EmpleadosFrutas_Avanzado\EmpleadosFrutas_Avanzado\obj\Debug\EmpleadosFrutas_Avanzado.Properties.Resources.resources
+C:\Users\MOUHCINE\source\repos\EmpleadosFrutas_Avanzado\EmpleadosFrutas_Avanzado\obj\Debug\EmpleadosFrutas_Avanzado.csproj.GenerateResource.cache
+C:\Users\MOUHCINE\source\repos\EmpleadosFrutas_Avanzado\EmpleadosFrutas_Avanzado\obj\Debug\EmpleadosFrutas_Avanzado.csproj.CoreCompileInputs.cache
+C:\Users\MOUHCINE\source\repos\EmpleadosFrutas_Avanzado\EmpleadosFrutas_Avanzado\obj\Debug\EmpleadosFrutas_Avanzado.exe
+C:\Users\MOUHCINE\source\repos\EmpleadosFrutas_Avanzado\EmpleadosFrutas_Avanzado\obj\Debug\EmpleadosFrutas_Avanzado.pdb
+C:\Users\MOUHCINE\source\repos\EmpleadosFrutas_Avanzado\EmpleadosFrutas_Avanzado\bin\Debug\MySql.Data.dll
+C:\Users\MOUHCINE\source\repos\EmpleadosFrutas_Avanzado\EmpleadosFrutas_Avanzado\obj\Debug\EmpleadosFrutas_Avanzado.csproj.CopyComplete
+C:\Users\MOUHCINE\source\repos\EmpleadosFrutas_Avanzado\EmpleadosFrutas_Avanzado\obj\Debug\EmpleadosFrutas_Avanzado.FormInsertar.resources
+C:\Users\MOUHCINE\source\repos\EmpleadosFrutas_Avanzado\EmpleadosFrutas_Avanzado\obj\Debug\EmpleadosFrutas_Avanzado.FormModificar.resources
