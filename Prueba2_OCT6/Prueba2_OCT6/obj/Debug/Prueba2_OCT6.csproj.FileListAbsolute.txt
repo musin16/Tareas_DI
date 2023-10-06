@@ -1,0 +1,12 @@
+C:\Users\usuario\source\repos\Prueba2_OCT6\Prueba2_OCT6\bin\Debug\Prueba2_OCT6.exe.config
+C:\Users\usuario\source\repos\Prueba2_OCT6\Prueba2_OCT6\bin\Debug\Prueba2_OCT6.exe
+C:\Users\usuario\source\repos\Prueba2_OCT6\Prueba2_OCT6\bin\Debug\Prueba2_OCT6.pdb
+C:\Users\usuario\source\repos\Prueba2_OCT6\Prueba2_OCT6\bin\Debug\MySql.Data.dll
+C:\Users\usuario\source\repos\Prueba2_OCT6\Prueba2_OCT6\obj\Debug\Prueba2_OCT6.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\Prueba2_OCT6\Prueba2_OCT6\obj\Debug\Prueba2_OCT6.Form1.resources
+C:\Users\usuario\source\repos\Prueba2_OCT6\Prueba2_OCT6\obj\Debug\Prueba2_OCT6.Properties.Resources.resources
+C:\Users\usuario\source\repos\Prueba2_OCT6\Prueba2_OCT6\obj\Debug\Prueba2_OCT6.csproj.GenerateResource.cache
+C:\Users\usuario\source\repos\Prueba2_OCT6\Prueba2_OCT6\obj\Debug\Prueba2_OCT6.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\Prueba2_OCT6\Prueba2_OCT6\obj\Debug\Prueba2_OCT6.csproj.CopyComplete
+C:\Users\usuario\source\repos\Prueba2_OCT6\Prueba2_OCT6\obj\Debug\Prueba2_OCT6.exe
+C:\Users\usuario\source\repos\Prueba2_OCT6\Prueba2_OCT6\obj\Debug\Prueba2_OCT6.pdb
