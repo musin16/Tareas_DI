@@ -33,7 +33,7 @@ namespace Prueba2_OCT6
 
         private void button1_Click(object sender, EventArgs e)
         {
-            for (int i=0;i<12;i++)
+            for (int i=0;i<1;i++)
             {               
                 Button btn = new Button();
                 TextBox tb = new TextBox();
@@ -53,7 +53,7 @@ namespace Prueba2_OCT6
             flowLayoutPanel1.Visible = true;
             dataGridView1.Visible = true;
             btn_pagar.Visible = true;
-            dataGridView1.DataSource = lisfrutas2;
+           // dataGridView1.DataSource = lisfrutas2;
         }
 
         private void Btn_Click(object sender, EventArgs e)
@@ -73,23 +73,18 @@ namespace Prueba2_OCT6
             lisfrutas2.Clear();
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = lisfrutas2;
+            suma = 0;
         }
 
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             int fila = e.RowIndex;
-            if (fila >= 0 && fila < lisfrutas2.Count)
-            {
-                Fruta f = lisfrutas2[fila];
-                lisfrutas2.Remove(f);
-                suma -= f.Precio;
-                lbl_contador.Text = suma.ToString();
-                dataGridView1.DataSource = null;
-                dataGridView1.DataSource = lisfrutas2;
-            }
-
-            MessageBox.Show("alert");
+            Fruta f = lisfrutas2[fila];
+            lisfrutas2.Remove(f);
+            suma -= f.Precio;
+            lbl_contador.Text = suma.ToString();
+            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = lisfrutas2;
         }
-            
     }
 }
