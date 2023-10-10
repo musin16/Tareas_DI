@@ -58,10 +58,9 @@ namespace TPV
             // flpFrutas
             // 
             this.flpFrutas.AutoScroll = true;
-            this.flpFrutas.Location = new System.Drawing.Point(50, 76);
-            this.flpFrutas.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.flpFrutas.Location = new System.Drawing.Point(27, 41);
             this.flpFrutas.Name = "flpFrutas";
-            this.flpFrutas.Size = new System.Drawing.Size(860, 774);
+            this.flpFrutas.Size = new System.Drawing.Size(469, 419);
             this.flpFrutas.TabIndex = 0;
             this.flpFrutas.Visible = false;
             // 
@@ -69,11 +68,10 @@ namespace TPV
             // 
             this.dgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dgv1.Location = new System.Drawing.Point(999, 76);
-            this.dgv1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dgv1.Location = new System.Drawing.Point(545, 41);
             this.dgv1.Name = "dgv1";
             this.dgv1.RowHeadersWidth = 51;
-            this.dgv1.Size = new System.Drawing.Size(704, 277);
+            this.dgv1.Size = new System.Drawing.Size(384, 150);
             this.dgv1.TabIndex = 2;
             this.dgv1.Visible = false;
             this.dgv1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv1_CellClick);
@@ -86,10 +84,9 @@ namespace TPV
             // btnPagar
             // 
             this.btnPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPagar.Location = new System.Drawing.Point(1505, 524);
-            this.btnPagar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnPagar.Location = new System.Drawing.Point(821, 284);
             this.btnPagar.Name = "btnPagar";
-            this.btnPagar.Size = new System.Drawing.Size(198, 100);
+            this.btnPagar.Size = new System.Drawing.Size(108, 54);
             this.btnPagar.TabIndex = 3;
             this.btnPagar.Text = "Pagar";
             this.btnPagar.UseVisualStyleBackColor = true;
@@ -100,10 +97,9 @@ namespace TPV
             // 
             this.lblTotal.AutoSize = true;
             this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(1496, 432);
-            this.lblTotal.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblTotal.Location = new System.Drawing.Point(816, 234);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(111, 54);
+            this.lblTotal.Size = new System.Drawing.Size(66, 31);
             this.lblTotal.TabIndex = 4;
             this.lblTotal.Text = "total";
             this.lblTotal.Visible = false;
@@ -111,10 +107,10 @@ namespace TPV
             // btnEmpezar
             // 
             this.btnEmpezar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEmpezar.Location = new System.Drawing.Point(742, 388);
-            this.btnEmpezar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEmpezar.Location = new System.Drawing.Point(405, 210);
+            this.btnEmpezar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEmpezar.Name = "btnEmpezar";
-            this.btnEmpezar.Size = new System.Drawing.Size(383, 148);
+            this.btnEmpezar.Size = new System.Drawing.Size(209, 80);
             this.btnEmpezar.TabIndex = 5;
             this.btnEmpezar.Text = "TPV ";
             this.btnEmpezar.UseVisualStyleBackColor = true;
@@ -122,10 +118,10 @@ namespace TPV
             // 
             // txtMail
             // 
-            this.txtMail.Location = new System.Drawing.Point(999, 454);
-            this.txtMail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMail.Location = new System.Drawing.Point(545, 246);
+            this.txtMail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtMail.Name = "txtMail";
-            this.txtMail.Size = new System.Drawing.Size(440, 29);
+            this.txtMail.Size = new System.Drawing.Size(242, 20);
             this.txtMail.TabIndex = 6;
             this.txtMail.Visible = false;
             // 
@@ -133,10 +129,10 @@ namespace TPV
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(999, 421);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(545, 228);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(281, 29);
+            this.label1.Size = new System.Drawing.Size(164, 17);
             this.label1.TabIndex = 7;
             this.label1.Text = "Introduce mail del cliente";
             this.label1.Visible = false;
@@ -144,10 +140,10 @@ namespace TPV
             // btnAdministrar
             // 
             this.btnAdministrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdministrar.Location = new System.Drawing.Point(1490, 805);
-            this.btnAdministrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdministrar.Location = new System.Drawing.Point(813, 436);
+            this.btnAdministrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAdministrar.Name = "btnAdministrar";
-            this.btnAdministrar.Size = new System.Drawing.Size(198, 44);
+            this.btnAdministrar.Size = new System.Drawing.Size(108, 24);
             this.btnAdministrar.TabIndex = 8;
             this.btnAdministrar.Text = "Administración";
             this.btnAdministrar.UseVisualStyleBackColor = true;
@@ -158,10 +154,9 @@ namespace TPV
             // 
             this.labelEuro.AutoSize = true;
             this.labelEuro.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelEuro.Location = new System.Drawing.Point(1654, 432);
-            this.labelEuro.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.labelEuro.Location = new System.Drawing.Point(902, 234);
             this.labelEuro.Name = "labelEuro";
-            this.labelEuro.Size = new System.Drawing.Size(49, 54);
+            this.labelEuro.Size = new System.Drawing.Size(29, 31);
             this.labelEuro.TabIndex = 9;
             this.labelEuro.Text = "€";
             this.labelEuro.Visible = false;
@@ -170,10 +165,10 @@ namespace TPV
             // 
             this.labelTotal.AutoSize = true;
             this.labelTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTotal.Location = new System.Drawing.Point(1500, 399);
-            this.labelTotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelTotal.Location = new System.Drawing.Point(818, 216);
+            this.labelTotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTotal.Name = "labelTotal";
-            this.labelTotal.Size = new System.Drawing.Size(74, 29);
+            this.labelTotal.Size = new System.Drawing.Size(44, 17);
             this.labelTotal.TabIndex = 10;
             this.labelTotal.Text = "Total:";
             this.labelTotal.Visible = false;
@@ -181,10 +176,10 @@ namespace TPV
             // pbAviso
             // 
             this.pbAviso.Image = global::TPV.Properties.Resources.exclamacion;
-            this.pbAviso.Location = new System.Drawing.Point(1679, 805);
-            this.pbAviso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbAviso.Location = new System.Drawing.Point(916, 436);
+            this.pbAviso.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pbAviso.Name = "pbAviso";
-            this.pbAviso.Size = new System.Drawing.Size(40, 44);
+            this.pbAviso.Size = new System.Drawing.Size(22, 24);
             this.pbAviso.TabIndex = 11;
             this.pbAviso.TabStop = false;
             this.pbAviso.Visible = false;
@@ -193,10 +188,10 @@ namespace TPV
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(7, 107);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(4, 58);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(95, 29);
+            this.label11.Size = new System.Drawing.Size(56, 17);
             this.label11.TabIndex = 12;
             this.label11.Text = "Precio: ";
             // 
@@ -204,10 +199,10 @@ namespace TPV
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(7, 48);
-            this.lblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNombre.Location = new System.Drawing.Point(4, 26);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(101, 29);
+            this.lblNombre.Size = new System.Drawing.Size(58, 17);
             this.lblNombre.TabIndex = 13;
             this.lblNombre.Text = "Nombre";
             // 
@@ -215,10 +210,10 @@ namespace TPV
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(7, 155);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(4, 84);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(146, 29);
+            this.label12.Size = new System.Drawing.Size(86, 17);
             this.label12.TabIndex = 14;
             this.label12.Text = "Existencias: ";
             // 
@@ -226,10 +221,10 @@ namespace TPV
             // 
             this.lblExistencias.AutoSize = true;
             this.lblExistencias.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExistencias.Location = new System.Drawing.Point(161, 155);
-            this.lblExistencias.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblExistencias.Location = new System.Drawing.Point(88, 84);
+            this.lblExistencias.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblExistencias.Name = "lblExistencias";
-            this.lblExistencias.Size = new System.Drawing.Size(65, 29);
+            this.lblExistencias.Size = new System.Drawing.Size(40, 17);
             this.lblExistencias.TabIndex = 15;
             this.lblExistencias.Text = "3000";
             this.lblExistencias.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -238,10 +233,10 @@ namespace TPV
             // 
             this.lblPrecio.AutoSize = true;
             this.lblPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecio.Location = new System.Drawing.Point(110, 107);
-            this.lblPrecio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrecio.Location = new System.Drawing.Point(60, 58);
+            this.lblPrecio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(58, 29);
+            this.lblPrecio.Size = new System.Drawing.Size(36, 17);
             this.lblPrecio.TabIndex = 16;
             this.lblPrecio.Text = "2,35";
             this.lblPrecio.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -257,11 +252,11 @@ namespace TPV
             this.gbInfo.Controls.Add(this.lblExistencias);
             this.gbInfo.Controls.Add(this.label12);
             this.gbInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbInfo.Location = new System.Drawing.Point(918, 644);
-            this.gbInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbInfo.Location = new System.Drawing.Point(501, 349);
+            this.gbInfo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gbInfo.Name = "gbInfo";
-            this.gbInfo.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.gbInfo.Size = new System.Drawing.Size(312, 205);
+            this.gbInfo.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbInfo.Size = new System.Drawing.Size(170, 111);
             this.gbInfo.TabIndex = 17;
             this.gbInfo.TabStop = false;
             this.gbInfo.Text = "Info";
@@ -271,10 +266,10 @@ namespace TPV
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(220, 155);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(120, 84);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(43, 29);
+            this.label5.Size = new System.Drawing.Size(25, 17);
             this.label5.TabIndex = 18;
             this.label5.Text = "Kg";
             // 
@@ -282,10 +277,10 @@ namespace TPV
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(170, 107);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(93, 58);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 29);
+            this.label4.Size = new System.Drawing.Size(37, 17);
             this.label4.TabIndex = 17;
             this.label4.Text = "€/Kg";
             // 
@@ -293,30 +288,30 @@ namespace TPV
             // 
             this.lblBusca.AutoSize = true;
             this.lblBusca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBusca.Location = new System.Drawing.Point(994, 563);
-            this.lblBusca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBusca.Location = new System.Drawing.Point(542, 305);
+            this.lblBusca.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblBusca.Name = "lblBusca";
-            this.lblBusca.Size = new System.Drawing.Size(139, 29);
+            this.lblBusca.Size = new System.Drawing.Size(85, 17);
             this.lblBusca.TabIndex = 19;
             this.lblBusca.Text = "Buscar fruta";
             this.lblBusca.Visible = false;
             // 
             // txtBuscar
             // 
-            this.txtBuscar.Location = new System.Drawing.Point(999, 596);
-            this.txtBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBuscar.Location = new System.Drawing.Point(545, 323);
+            this.txtBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(440, 29);
+            this.txtBuscar.Size = new System.Drawing.Size(242, 20);
             this.txtBuscar.TabIndex = 18;
             this.txtBuscar.Visible = false;
             this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
             // TPV
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
-            this.ClientSize = new System.Drawing.Size(1756, 881);
+            this.ClientSize = new System.Drawing.Size(900, 343);
             this.Controls.Add(this.lblBusca);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.gbInfo);
@@ -331,7 +326,6 @@ namespace TPV
             this.Controls.Add(this.btnPagar);
             this.Controls.Add(this.dgv1);
             this.Controls.Add(this.flpFrutas);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "TPV";
             this.Text = "TPV";
             this.Load += new System.EventHandler(this.TPV_Load);

@@ -15,6 +15,7 @@ using Microsoft.VisualBasic;
 using iTextSharp.text.pdf;
 using iTextSharp.text;
 using System.Diagnostics;
+using Image = System.Drawing.Image;
 
 namespace TPV
 {
@@ -59,7 +60,7 @@ namespace TPV
                 flpFrutas.Controls.Add(btn);
 
             }
-
+            dgv1.DataSource = listaCesta;
         }
 
         private void Btn_MouseHover(object sender, EventArgs e)
@@ -126,11 +127,7 @@ namespace TPV
         {
             lblTotal.Text = 0.ToString();
             conexion.modificarStock(listaCesta,listaFrutas);
-            int lis=listaCesta.Count;
-            for (int i = lis; i > 0;i--)
-            {
-                listaCesta.Remove(listaCesta[i]);
-            }
+            listaCesta.Clear();
             dgv1.DataSource= null;
             dgv1.DataSource = listaCesta;
         }
@@ -176,7 +173,52 @@ namespace TPV
 
         private void txtBuscar_TextChanged(object sender, EventArgs e)
         {
+            flpFrutas.Controls.Clear();
+            for (int i=0;i<listaFrutas.Count;i++)
+            {
+                Button btn = new Button();
+                btn.Size = new Size(120,120);
+                btn.Name = listaFrutas[i].Nombre;
+                btn.Tag = listaFrutas[i].Id;
+                btn.Click += Btn_Click; ;
+                MemoryStream ms = new MemoryStream(listaFrutas[i].Imagen);
+                if (listaFrutas[i].Nombre.StartsWith(txtBuscar.Text) && txtBuscar.Text!="")
+                {
+                    btn.BackgroundImage = Image.FromStream(ms);
+                    flpFrutas.Controls.Add(btn);
+                    frutaEncontrada.Add(listaFrutas[i]);
+                    dgv1.DataSource = null;
+                    dgv1.DataSource = frutaEncontrada;
+                }
+                if (txtBuscar.Text=="")
+                {
+                    frutaEncontrada.Clear();
+                    btn.BackgroundImage = Image.FromStream(ms);
+                    flpFrutas.Controls.Add(btn);
+                    dgv1.DataSource = null;
+                    dgv1.DataSource = frutaEncontrada;
+                }
+            }
 
+
+        }
+
+        private void Btn_Click1(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            DialogResult r = MessageBox.Show("¿Quieres eliminar la fruta?","Opcion",MessageBoxButtons.OKCancel);
+            if (r==DialogResult.OK)
+            {
+                conexion.eliminarFruta(Convert.ToInt16(btn.Tag));
+                flpFrutas.Controls.Clear();
+                conexion.listarFrutas();
+                MessageBox.Show("Fruta eliminada correctamente");
+
+            }
+            else
+            {
+                MessageBox.Show("FRUTA NO SE HA ELIMINADO");
+            }
         }
 
         private void dgv1_CellClick(object sender, DataGridViewCellEventArgs e)
