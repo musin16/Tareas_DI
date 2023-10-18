@@ -17,6 +17,7 @@ using System.Net.Mail;
 using System.Diagnostics;
 using System.Security.Cryptography;
 using Image = System.Drawing.Image;
+using iTextSharp.text.html.simpleparser;
 
 namespace TPV
 {
@@ -26,6 +27,7 @@ namespace TPV
         List<claseFruta> listaFrutas = new List<claseFruta>();
         List<String> productosBajoMinimo = new List<String>();
         String nombreImagen = "";
+        byte[] img;
         public backEnd()
         {
             InitializeComponent();
@@ -110,21 +112,48 @@ namespace TPV
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-         
+            gbInsertar.Visible = false;
+            flpFrutas.Controls.Clear();
+            int cant = conexion.listarFrutas().Count;
+            listaFrutas = conexion.listarFrutas();
+            for (int i = 0; i < cant; i++)
+            {
+                Button btn = new Button();
+                btn.Text = listaFrutas[i].Nombre;
+                btn.Tag = i;
+                btn.Click += BotonM_Click;
+                flpFrutas.Controls.Add(btn);
+            }
+            flpFrutas.Visible = true;
+
         }
 
         private void BotonM_Click(object sender, EventArgs e) // para modificar la fruta
         {
-           
+            flpFrutas.Visible = false;
+           Button btn=(Button)sender;
+           claseFruta clf = listaFrutas[Convert.ToInt16(btn.Tag)];
+           txtId.Text = clf.Id.ToString();
+           txtStock.Text = clf.Stock.ToString();
+           txtNombre.Text = clf.Nombre.ToString();
+           txtPrecio.Text = clf.Precio.ToString();
+           img = clf.Imagen;
+           MemoryStream ms =new MemoryStream(img);
+           pbImagenCargada.Image=Image.FromStream(ms);
+            gbInsertar.Visible = true;
 
         }
         private void btnGuardarCambios_Click(object sender, EventArgs e)
         {
-          txtStock.Text=Interaction.InputBox("Introduce el stock que quieras: ");
+            conexion.modificarFruta(txtId.Text, txtNombre.Text, txtPrecio.Text,
+                  img, txtStock.Text);
+
+
         }
 
         private void btnEliminarFruta_Click(object sender, EventArgs e)
         {
+            gbInsertar.Visible = false;
             flpFrutas.Controls.Clear();
             int cant = conexion.listarFrutas().Count;
             listaFrutas = conexion.listarFrutas();

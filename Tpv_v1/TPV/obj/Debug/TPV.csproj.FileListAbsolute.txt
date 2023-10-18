@@ -62,3 +62,29 @@ C:\Users\usuario\source\repos\Tpv_v1\TPV\obj\Debug\TPV.csproj.CoreCompileInputs.
 C:\Users\usuario\source\repos\Tpv_v1\TPV\obj\Debug\TPV.csproj.CopyComplete
 C:\Users\usuario\source\repos\Tpv_v1\TPV\obj\Debug\TPV.exe
 C:\Users\usuario\source\repos\Tpv_v1\TPV\obj\Debug\TPV.pdb
+C:\Users\MOUHCINE\Downloads\Tpv_v1\Tpv_v1\TPV\bin\Debug\TPV.exe.config
+C:\Users\MOUHCINE\Downloads\Tpv_v1\Tpv_v1\TPV\bin\Debug\TPV.exe
+C:\Users\MOUHCINE\Downloads\Tpv_v1\Tpv_v1\TPV\bin\Debug\TPV.pdb
+C:\Users\MOUHCINE\Downloads\Tpv_v1\Tpv_v1\TPV\obj\Debug\TPV.csproj.AssemblyReference.cache
+C:\Users\MOUHCINE\Downloads\Tpv_v1\Tpv_v1\TPV\obj\Debug\TPV.backEnd.resources
+C:\Users\MOUHCINE\Downloads\Tpv_v1\Tpv_v1\TPV\obj\Debug\TPV.Inicio.resources
+C:\Users\MOUHCINE\Downloads\Tpv_v1\Tpv_v1\TPV\obj\Debug\TPV.TPV.resources
+C:\Users\MOUHCINE\Downloads\Tpv_v1\Tpv_v1\TPV\obj\Debug\TPV.Properties.Resources.resources
+C:\Users\MOUHCINE\Downloads\Tpv_v1\Tpv_v1\TPV\obj\Debug\TPV.csproj.GenerateResource.cache
+C:\Users\MOUHCINE\Downloads\Tpv_v1\Tpv_v1\TPV\obj\Debug\TPV.csproj.CoreCompileInputs.cache
+C:\Users\MOUHCINE\Downloads\Tpv_v1\Tpv_v1\TPV\obj\Debug\TPV.csproj.CopyComplete
+C:\Users\MOUHCINE\Downloads\Tpv_v1\Tpv_v1\TPV\obj\Debug\TPV.exe
+C:\Users\MOUHCINE\Downloads\Tpv_v1\Tpv_v1\TPV\obj\Debug\TPV.pdb
+C:\Users\MOUHCINE\Downloads\Tpv_v1 (2)\Tpv_v1\TPV\bin\Debug\TPV.exe.config
+C:\Users\MOUHCINE\Downloads\Tpv_v1 (2)\Tpv_v1\TPV\bin\Debug\TPV.exe
+C:\Users\MOUHCINE\Downloads\Tpv_v1 (2)\Tpv_v1\TPV\bin\Debug\TPV.pdb
+C:\Users\MOUHCINE\Downloads\Tpv_v1 (2)\Tpv_v1\TPV\obj\Debug\TPV.csproj.AssemblyReference.cache
+C:\Users\MOUHCINE\Downloads\Tpv_v1 (2)\Tpv_v1\TPV\obj\Debug\TPV.backEnd.resources
+C:\Users\MOUHCINE\Downloads\Tpv_v1 (2)\Tpv_v1\TPV\obj\Debug\TPV.Inicio.resources
+C:\Users\MOUHCINE\Downloads\Tpv_v1 (2)\Tpv_v1\TPV\obj\Debug\TPV.TPV.resources
+C:\Users\MOUHCINE\Downloads\Tpv_v1 (2)\Tpv_v1\TPV\obj\Debug\TPV.Properties.Resources.resources
+C:\Users\MOUHCINE\Downloads\Tpv_v1 (2)\Tpv_v1\TPV\obj\Debug\TPV.csproj.GenerateResource.cache
+C:\Users\MOUHCINE\Downloads\Tpv_v1 (2)\Tpv_v1\TPV\obj\Debug\TPV.csproj.CoreCompileInputs.cache
+C:\Users\MOUHCINE\Downloads\Tpv_v1 (2)\Tpv_v1\TPV\obj\Debug\TPV.csproj.CopyComplete
+C:\Users\MOUHCINE\Downloads\Tpv_v1 (2)\Tpv_v1\TPV\obj\Debug\TPV.exe
+C:\Users\MOUHCINE\Downloads\Tpv_v1 (2)\Tpv_v1\TPV\obj\Debug\TPV.pdb

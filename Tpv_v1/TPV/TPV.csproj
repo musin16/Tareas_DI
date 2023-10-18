@@ -55,14 +55,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="claseCesta.cs" />
-    <Compile Include="claseAccesoBD.cs" />
-    <Compile Include="backEnd.cs">
+    <Compile Include="..\..\..\backEnd.cs">
+      <Link>backEnd.cs</Link>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="backEnd.Designer.cs">
+    <Compile Include="..\..\..\backEnd.Designer.cs">
+      <Link>backEnd.Designer.cs</Link>
       <DependentUpon>backEnd.cs</DependentUpon>
     </Compile>
+    <Compile Include="claseCesta.cs" />
+    <Compile Include="claseAccesoBD.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="Facturacion.cs" />
     <Compile Include="TPV.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,7 +82,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="backEnd.resx">
+    <EmbeddedResource Include="..\..\..\backEnd.resx">
+      <Link>backEnd.resx</Link>
       <DependentUpon>backEnd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
