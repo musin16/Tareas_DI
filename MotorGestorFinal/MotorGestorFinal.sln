@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorGestorFinal", "MotorGestorFinal\MotorGestorFinal.csproj", "{49AA49CB-1D16-46B9-884B-15B2A191A01E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49AA49CB-1D16-46B9-884B-15B2A191A01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49AA49CB-1D16-46B9-884B-15B2A191A01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49AA49CB-1D16-46B9-884B-15B2A191A01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49AA49CB-1D16-46B9-884B-15B2A191A01E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02DC25A1-87D8-456E-9D3B-3DA232436B4D}
+	EndGlobalSection
+EndGlobal

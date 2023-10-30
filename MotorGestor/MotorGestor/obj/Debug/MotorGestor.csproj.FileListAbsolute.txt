@@ -1,0 +1,10 @@
+C:\Users\pdm_a\source\repos\MotorGestor\MotorGestor\bin\Debug\MotorGestor.exe.config
+C:\Users\pdm_a\source\repos\MotorGestor\MotorGestor\bin\Debug\MotorGestor.exe
+C:\Users\pdm_a\source\repos\MotorGestor\MotorGestor\bin\Debug\MotorGestor.pdb
+C:\Users\pdm_a\source\repos\MotorGestor\MotorGestor\obj\Debug\MotorGestor.csproj.AssemblyReference.cache
+C:\Users\pdm_a\source\repos\MotorGestor\MotorGestor\obj\Debug\MotorGestor.Form1.resources
+C:\Users\pdm_a\source\repos\MotorGestor\MotorGestor\obj\Debug\MotorGestor.Properties.Resources.resources
+C:\Users\pdm_a\source\repos\MotorGestor\MotorGestor\obj\Debug\MotorGestor.csproj.GenerateResource.cache
+C:\Users\pdm_a\source\repos\MotorGestor\MotorGestor\obj\Debug\MotorGestor.csproj.CoreCompileInputs.cache
+C:\Users\pdm_a\source\repos\MotorGestor\MotorGestor\obj\Debug\MotorGestor.exe
+C:\Users\pdm_a\source\repos\MotorGestor\MotorGestor\obj\Debug\MotorGestor.pdb
