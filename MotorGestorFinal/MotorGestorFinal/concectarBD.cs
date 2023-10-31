@@ -62,11 +62,16 @@ namespace MotorGestorFinal
             List<string> valores = new List<string>();
             cn.Open();
             cmd = new MySqlCommand("Select * from " + consulta,cn);
-            int filas= data.VisibleFieldCount;
             data=cmd.ExecuteReader();
+            int filas = data.VisibleFieldCount;
             while (data.Read())
             {
-                valores.Add(data.GetString(0));
+                String linea = "";
+                for (int i=0;i<filas;i++)
+                {
+                    linea+= data.GetString(i)+";";
+                }
+                valores.Add(linea);
             }
             cn.Close();
             return valores;

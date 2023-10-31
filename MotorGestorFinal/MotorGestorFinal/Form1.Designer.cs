@@ -46,61 +46,56 @@
             // txtConsulta
             // 
             this.txtConsulta.Enabled = false;
-            this.txtConsulta.Location = new System.Drawing.Point(63, 286);
-            this.txtConsulta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtConsulta.Location = new System.Drawing.Point(42, 186);
             this.txtConsulta.Name = "txtConsulta";
-            this.txtConsulta.Size = new System.Drawing.Size(715, 26);
+            this.txtConsulta.Size = new System.Drawing.Size(478, 20);
             this.txtConsulta.TabIndex = 19;
+            this.txtConsulta.Text = "show databases";
             this.txtConsulta.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtConsulta_KeyPress);
             // 
             // txtContra
             // 
             this.txtContra.Enabled = false;
-            this.txtContra.Location = new System.Drawing.Point(634, 137);
-            this.txtContra.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtContra.Location = new System.Drawing.Point(423, 89);
             this.txtContra.Name = "txtContra";
             this.txtContra.PasswordChar = '*';
-            this.txtContra.Size = new System.Drawing.Size(144, 26);
+            this.txtContra.Size = new System.Drawing.Size(97, 20);
             this.txtContra.TabIndex = 18;
             this.txtContra.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtContra_KeyPress);
             // 
             // txtUsuario
             // 
             this.txtUsuario.Enabled = false;
-            this.txtUsuario.Location = new System.Drawing.Point(446, 137);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtUsuario.Location = new System.Drawing.Point(297, 89);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(144, 26);
+            this.txtUsuario.Size = new System.Drawing.Size(97, 20);
             this.txtUsuario.TabIndex = 17;
             this.txtUsuario.Text = "root";
             // 
             // txtBaseDatos
             // 
             this.txtBaseDatos.Enabled = false;
-            this.txtBaseDatos.Location = new System.Drawing.Point(255, 137);
-            this.txtBaseDatos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtBaseDatos.Location = new System.Drawing.Point(170, 89);
             this.txtBaseDatos.Name = "txtBaseDatos";
-            this.txtBaseDatos.Size = new System.Drawing.Size(142, 26);
+            this.txtBaseDatos.Size = new System.Drawing.Size(96, 20);
             this.txtBaseDatos.TabIndex = 16;
             this.txtBaseDatos.Text = "dam2023";
             // 
             // txtServidor
             // 
             this.txtServidor.Enabled = false;
-            this.txtServidor.Location = new System.Drawing.Point(63, 137);
-            this.txtServidor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtServidor.Location = new System.Drawing.Point(42, 89);
             this.txtServidor.Name = "txtServidor";
-            this.txtServidor.Size = new System.Drawing.Size(144, 26);
+            this.txtServidor.Size = new System.Drawing.Size(97, 20);
             this.txtServidor.TabIndex = 15;
             this.txtServidor.Text = "localhost";
             // 
             // btnConsulta
             // 
             this.btnConsulta.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnConsulta.Location = new System.Drawing.Point(334, 192);
-            this.btnConsulta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnConsulta.Location = new System.Drawing.Point(223, 125);
             this.btnConsulta.Name = "btnConsulta";
-            this.btnConsulta.Size = new System.Drawing.Size(146, 63);
+            this.btnConsulta.Size = new System.Drawing.Size(97, 41);
             this.btnConsulta.TabIndex = 14;
             this.btnConsulta.Text = "Consulta";
             this.btnConsulta.UseVisualStyleBackColor = false;
@@ -109,10 +104,9 @@
             // btnContraseña
             // 
             this.btnContraseña.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnContraseña.Location = new System.Drawing.Point(634, 42);
-            this.btnContraseña.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnContraseña.Location = new System.Drawing.Point(423, 27);
             this.btnContraseña.Name = "btnContraseña";
-            this.btnContraseña.Size = new System.Drawing.Size(146, 63);
+            this.btnContraseña.Size = new System.Drawing.Size(97, 41);
             this.btnContraseña.TabIndex = 13;
             this.btnContraseña.Text = "Contraseña";
             this.btnContraseña.UseVisualStyleBackColor = false;
@@ -121,10 +115,9 @@
             // btnUsuario
             // 
             this.btnUsuario.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnUsuario.Location = new System.Drawing.Point(446, 45);
-            this.btnUsuario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnUsuario.Location = new System.Drawing.Point(297, 29);
             this.btnUsuario.Name = "btnUsuario";
-            this.btnUsuario.Size = new System.Drawing.Size(146, 63);
+            this.btnUsuario.Size = new System.Drawing.Size(97, 41);
             this.btnUsuario.TabIndex = 12;
             this.btnUsuario.Text = "Usuario";
             this.btnUsuario.UseVisualStyleBackColor = false;
@@ -133,10 +126,9 @@
             // btnBaseDatos
             // 
             this.btnBaseDatos.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnBaseDatos.Location = new System.Drawing.Point(255, 42);
-            this.btnBaseDatos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnBaseDatos.Location = new System.Drawing.Point(170, 27);
             this.btnBaseDatos.Name = "btnBaseDatos";
-            this.btnBaseDatos.Size = new System.Drawing.Size(146, 63);
+            this.btnBaseDatos.Size = new System.Drawing.Size(97, 41);
             this.btnBaseDatos.TabIndex = 11;
             this.btnBaseDatos.Text = "BD";
             this.btnBaseDatos.UseVisualStyleBackColor = false;
@@ -145,10 +137,9 @@
             // btn_Server
             // 
             this.btn_Server.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_Server.Location = new System.Drawing.Point(63, 42);
-            this.btn_Server.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_Server.Location = new System.Drawing.Point(42, 27);
             this.btn_Server.Name = "btn_Server";
-            this.btn_Server.Size = new System.Drawing.Size(146, 63);
+            this.btn_Server.Size = new System.Drawing.Size(97, 41);
             this.btn_Server.TabIndex = 10;
             this.btn_Server.Text = "Servidor";
             this.btn_Server.UseVisualStyleBackColor = false;
@@ -157,10 +148,9 @@
             // btnSalir
             // 
             this.btnSalir.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnSalir.Location = new System.Drawing.Point(812, 42);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnSalir.Location = new System.Drawing.Point(541, 27);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(146, 63);
+            this.btnSalir.Size = new System.Drawing.Size(97, 41);
             this.btnSalir.TabIndex = 22;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
@@ -169,18 +159,19 @@
             // listBD
             // 
             this.listBD.FormattingEnabled = true;
-            this.listBD.ItemHeight = 20;
-            this.listBD.Location = new System.Drawing.Point(812, 137);
+            this.listBD.Location = new System.Drawing.Point(541, 89);
+            this.listBD.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listBD.Name = "listBD";
-            this.listBD.Size = new System.Drawing.Size(246, 184);
+            this.listBD.Size = new System.Drawing.Size(165, 121);
             this.listBD.TabIndex = 23;
             // 
             // btnMostrar
             // 
             this.btnMostrar.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnMostrar.Location = new System.Drawing.Point(63, 335);
+            this.btnMostrar.Location = new System.Drawing.Point(42, 218);
+            this.btnMostrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(108, 44);
+            this.btnMostrar.Size = new System.Drawing.Size(72, 29);
             this.btnMostrar.TabIndex = 24;
             this.btnMostrar.Text = "Mostrar";
             this.btnMostrar.UseVisualStyleBackColor = false;
@@ -188,9 +179,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1179, 692);
+            this.ClientSize = new System.Drawing.Size(786, 450);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.listBD);
             this.Controls.Add(this.btnSalir);
@@ -204,7 +195,6 @@
             this.Controls.Add(this.btnUsuario);
             this.Controls.Add(this.btnBaseDatos);
             this.Controls.Add(this.btn_Server);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

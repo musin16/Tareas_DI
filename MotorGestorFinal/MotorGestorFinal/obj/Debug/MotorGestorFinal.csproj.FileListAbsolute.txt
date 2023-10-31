@@ -11,3 +11,15 @@ C:\Users\MOUHCINE\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\Motor
 C:\Users\MOUHCINE\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.exe
 C:\Users\MOUHCINE\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.pdb
 C:\Users\MOUHCINE\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.BDdatos.resources
+C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\bin\Debug\MotorGestorFinal.exe.config
+C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\bin\Debug\MotorGestorFinal.exe
+C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\bin\Debug\MotorGestorFinal.pdb
+C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.csproj.AssemblyReference.cache
+C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.BDdatos.resources
+C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.Form1.resources
+C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.Properties.Resources.resources
+C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.csproj.GenerateResource.cache
+C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.csproj.CoreCompileInputs.cache
+C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.csproj.CopyComplete
+C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.exe
+C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.pdb

@@ -40,21 +40,25 @@ namespace MotorGestorFinal
 
         private void BaseDatos_SelectedIndexChanged(object sender, EventArgs e)
         {
+            Tablas.Items.Clear();
             cn = new concectarBD(concectarBD.conectarse[0], BaseDatos.Text, concectarBD.conectarse[2], concectarBD.conectarse[3]);
             listTablas =cn.listarBasesDeDatos("show tables");
             for (int i = 0; i < listaBaseDatos.Count; i++)
             {
                Tablas.Items.Add(listTablas[i]);
             }
+            Tablas.Visible = true;
         }
 
         private void Tablas_SelectedIndexChanged(object sender, EventArgs e)
         {
+            Atributos.Items.Clear();
             listTablas = cn.select(Tablas.Text);
-            for (int i = 0; i < listaBaseDatos.Count; i++)
+            for (int i = 0; i < listTablas.Count; i++)
             {
                 Atributos.Items.Add(listTablas[i]);
             }
+            Atributos.Visible = true;
         }
     }
 }
