@@ -23,3 +23,6 @@ C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGes
 C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.csproj.CopyComplete
 C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.exe
 C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.pdb
+C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.csproj.SuggestedBindingRedirects.cache
+C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\obj\Debug\MotorGestorFinal.exe.config
+C:\Users\pdm_a\source\repos\MotorGestorFinal\MotorGestorFinal\bin\Debug\mysqlbackup.dll

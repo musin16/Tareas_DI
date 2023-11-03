@@ -43,7 +43,7 @@ namespace MotorGestorFinal
             Tablas.Items.Clear();
             cn = new concectarBD(concectarBD.conectarse[0], BaseDatos.Text, concectarBD.conectarse[2], concectarBD.conectarse[3]);
             listTablas =cn.listarBasesDeDatos("show tables");
-            for (int i = 0; i < listaBaseDatos.Count; i++)
+            for (int i = 0; i < listTablas.Count; i++)
             {
                Tablas.Items.Add(listTablas[i]);
             }
@@ -53,12 +53,21 @@ namespace MotorGestorFinal
         private void Tablas_SelectedIndexChanged(object sender, EventArgs e)
         {
             Atributos.Items.Clear();
+     
+            Campos.Items.Clear();
             listTablas = cn.select(Tablas.Text);
             for (int i = 0; i < listTablas.Count; i++)
             {
                 Atributos.Items.Add(listTablas[i]);
             }
+            List<String> lcampo= new List<String>();
+            lcampo = cn.listarRas(Tablas.Text);
+            for (int i = 0;i <lcampo.Count; i++) {
+                Campos.Items.Add(lcampo[i]);
+            }
+            Campos.Visible = true;
             Atributos.Visible = true;
         }
+
     }
 }

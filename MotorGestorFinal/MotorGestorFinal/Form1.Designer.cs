@@ -41,6 +41,8 @@
             this.btnSalir = new System.Windows.Forms.Button();
             this.listBD = new System.Windows.Forms.ListBox();
             this.btnMostrar = new System.Windows.Forms.Button();
+            this.btnExportar = new System.Windows.Forms.Button();
+            this.btnImportar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtConsulta
@@ -160,7 +162,7 @@
             // 
             this.listBD.FormattingEnabled = true;
             this.listBD.Location = new System.Drawing.Point(541, 89);
-            this.listBD.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBD.Margin = new System.Windows.Forms.Padding(2);
             this.listBD.Name = "listBD";
             this.listBD.Size = new System.Drawing.Size(165, 121);
             this.listBD.TabIndex = 23;
@@ -169,7 +171,7 @@
             // 
             this.btnMostrar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnMostrar.Location = new System.Drawing.Point(42, 218);
-            this.btnMostrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMostrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(72, 29);
             this.btnMostrar.TabIndex = 24;
@@ -177,11 +179,37 @@
             this.btnMostrar.UseVisualStyleBackColor = false;
             this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
+            // btnExportar
+            // 
+            this.btnExportar.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnExportar.Location = new System.Drawing.Point(170, 218);
+            this.btnExportar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnExportar.Name = "btnExportar";
+            this.btnExportar.Size = new System.Drawing.Size(72, 29);
+            this.btnExportar.TabIndex = 25;
+            this.btnExportar.Text = "Exportar";
+            this.btnExportar.UseVisualStyleBackColor = false;
+            this.btnExportar.Click += new System.EventHandler(this.btnExportar_Click);
+            // 
+            // btnImportar
+            // 
+            this.btnImportar.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnImportar.Location = new System.Drawing.Point(297, 218);
+            this.btnImportar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnImportar.Name = "btnImportar";
+            this.btnImportar.Size = new System.Drawing.Size(72, 29);
+            this.btnImportar.TabIndex = 26;
+            this.btnImportar.Text = "Importar";
+            this.btnImportar.UseVisualStyleBackColor = false;
+            this.btnImportar.Click += new System.EventHandler(this.btnImportar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(786, 450);
+            this.Controls.Add(this.btnImportar);
+            this.Controls.Add(this.btnExportar);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.listBD);
             this.Controls.Add(this.btnSalir);
@@ -218,6 +246,8 @@
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.ListBox listBD;
         private System.Windows.Forms.Button btnMostrar;
+        private System.Windows.Forms.Button btnExportar;
+        private System.Windows.Forms.Button btnImportar;
     }
 }
 
