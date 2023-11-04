@@ -32,59 +32,81 @@
             this.Tablas = new System.Windows.Forms.ListBox();
             this.Atributos = new System.Windows.Forms.ListBox();
             this.Campos = new System.Windows.Forms.ListBox();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BaseDatos
             // 
+            this.BaseDatos.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.BaseDatos.FormattingEnabled = true;
-            this.BaseDatos.Location = new System.Drawing.Point(11, 7);
-            this.BaseDatos.Margin = new System.Windows.Forms.Padding(2);
+            this.BaseDatos.ItemHeight = 16;
+            this.BaseDatos.Location = new System.Drawing.Point(15, 9);
+            this.BaseDatos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BaseDatos.Name = "BaseDatos";
-            this.BaseDatos.Size = new System.Drawing.Size(144, 277);
+            this.BaseDatos.Size = new System.Drawing.Size(191, 340);
             this.BaseDatos.TabIndex = 0;
             this.BaseDatos.SelectedIndexChanged += new System.EventHandler(this.BaseDatos_SelectedIndexChanged);
             // 
             // Tablas
             // 
+            this.Tablas.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.Tablas.FormattingEnabled = true;
-            this.Tablas.Location = new System.Drawing.Point(178, 7);
-            this.Tablas.Margin = new System.Windows.Forms.Padding(2);
+            this.Tablas.ItemHeight = 16;
+            this.Tablas.Location = new System.Drawing.Point(237, 9);
+            this.Tablas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Tablas.Name = "Tablas";
-            this.Tablas.Size = new System.Drawing.Size(137, 277);
+            this.Tablas.Size = new System.Drawing.Size(181, 340);
             this.Tablas.TabIndex = 1;
             this.Tablas.Visible = false;
             this.Tablas.SelectedIndexChanged += new System.EventHandler(this.Tablas_SelectedIndexChanged);
             // 
             // Atributos
             // 
+            this.Atributos.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.Atributos.FormattingEnabled = true;
-            this.Atributos.Location = new System.Drawing.Point(497, 7);
-            this.Atributos.Margin = new System.Windows.Forms.Padding(2);
+            this.Atributos.ItemHeight = 16;
+            this.Atributos.Location = new System.Drawing.Point(663, 9);
+            this.Atributos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Atributos.Name = "Atributos";
-            this.Atributos.Size = new System.Drawing.Size(144, 277);
+            this.Atributos.Size = new System.Drawing.Size(191, 340);
             this.Atributos.TabIndex = 2;
             this.Atributos.Visible = false;
             // 
             // Campos
             // 
+            this.Campos.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.Campos.FormattingEnabled = true;
-            this.Campos.Location = new System.Drawing.Point(329, 7);
-            this.Campos.Margin = new System.Windows.Forms.Padding(2);
+            this.Campos.ItemHeight = 16;
+            this.Campos.Location = new System.Drawing.Point(439, 9);
+            this.Campos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Campos.Name = "Campos";
-            this.Campos.Size = new System.Drawing.Size(144, 277);
+            this.Campos.Size = new System.Drawing.Size(191, 340);
             this.Campos.TabIndex = 3;
             this.Campos.Visible = false;
             // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnSalir.Location = new System.Drawing.Point(15, 387);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(191, 43);
+            this.btnSalir.TabIndex = 4;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnExportarEspecifico_Click);
+            // 
             // BDdatos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(791, 353);
+            this.BackgroundImage = global::MotorGestorFinal.Properties.Resources.oscuridad;
+            this.ClientSize = new System.Drawing.Size(1056, 638);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.Campos);
             this.Controls.Add(this.Atributos);
             this.Controls.Add(this.Tablas);
             this.Controls.Add(this.BaseDatos);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "BDdatos";
             this.Text = "BDdatos";
             this.Load += new System.EventHandler(this.BDdatos_Load);
@@ -98,5 +120,6 @@
         private System.Windows.Forms.ListBox Tablas;
         private System.Windows.Forms.ListBox Atributos;
         private System.Windows.Forms.ListBox Campos;
+        private System.Windows.Forms.Button btnSalir;
     }
 }

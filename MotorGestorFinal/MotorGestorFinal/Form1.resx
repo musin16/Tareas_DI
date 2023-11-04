@@ -117,4 +117,478 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtConsulta.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtConsulta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 229</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtConsulta.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtConsulta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>636, 22</value>
+  </data>
+  <data name="txtConsulta.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="txtConsulta.Text" xml:space="preserve">
+    <value>show databases</value>
+  </data>
+  <data name="&gt;&gt;txtConsulta.Name" xml:space="preserve">
+    <value>txtConsulta</value>
+  </data>
+  <data name="&gt;&gt;txtConsulta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtConsulta.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtConsulta.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtContra.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtContra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 110</value>
+  </data>
+  <data name="txtContra.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtContra.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtContra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 22</value>
+  </data>
+  <data name="txtContra.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;txtContra.Name" xml:space="preserve">
+    <value>txtContra</value>
+  </data>
+  <data name="&gt;&gt;txtContra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtContra.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtContra.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtUsuario.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 110</value>
+  </data>
+  <data name="txtUsuario.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 22</value>
+  </data>
+  <data name="txtUsuario.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="txtUsuario.Text" xml:space="preserve">
+    <value>root</value>
+  </data>
+  <data name="&gt;&gt;txtUsuario.Name" xml:space="preserve">
+    <value>txtUsuario</value>
+  </data>
+  <data name="&gt;&gt;txtUsuario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtUsuario.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtUsuario.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtBaseDatos.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBaseDatos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 110</value>
+  </data>
+  <data name="txtBaseDatos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtBaseDatos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="txtBaseDatos.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="txtBaseDatos.Text" xml:space="preserve">
+    <value>dam2023</value>
+  </data>
+  <data name="&gt;&gt;txtBaseDatos.Name" xml:space="preserve">
+    <value>txtBaseDatos</value>
+  </data>
+  <data name="&gt;&gt;txtBaseDatos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBaseDatos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtBaseDatos.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtServidor.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtServidor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 110</value>
+  </data>
+  <data name="txtServidor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtServidor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 22</value>
+  </data>
+  <data name="txtServidor.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="txtServidor.Text" xml:space="preserve">
+    <value>localhost</value>
+  </data>
+  <data name="&gt;&gt;txtServidor.Name" xml:space="preserve">
+    <value>txtServidor</value>
+  </data>
+  <data name="&gt;&gt;txtServidor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtServidor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtServidor.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnConsulta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 154</value>
+  </data>
+  <data name="btnConsulta.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnConsulta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 50</value>
+  </data>
+  <data name="btnConsulta.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnConsulta.Text" xml:space="preserve">
+    <value>Consulta</value>
+  </data>
+  <data name="&gt;&gt;btnConsulta.Name" xml:space="preserve">
+    <value>btnConsulta</value>
+  </data>
+  <data name="&gt;&gt;btnConsulta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnConsulta.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnConsulta.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnContraseña.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 33</value>
+  </data>
+  <data name="btnContraseña.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnContraseña.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 50</value>
+  </data>
+  <data name="btnContraseña.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnContraseña.Text" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="&gt;&gt;btnContraseña.Name" xml:space="preserve">
+    <value>btnContraseña</value>
+  </data>
+  <data name="&gt;&gt;btnContraseña.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnContraseña.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnContraseña.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 36</value>
+  </data>
+  <data name="btnUsuario.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 50</value>
+  </data>
+  <data name="btnUsuario.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnUsuario.Text" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="&gt;&gt;btnUsuario.Name" xml:space="preserve">
+    <value>btnUsuario</value>
+  </data>
+  <data name="&gt;&gt;btnUsuario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUsuario.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnUsuario.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnBaseDatos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 33</value>
+  </data>
+  <data name="btnBaseDatos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnBaseDatos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 50</value>
+  </data>
+  <data name="btnBaseDatos.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnBaseDatos.Text" xml:space="preserve">
+    <value>BD</value>
+  </data>
+  <data name="&gt;&gt;btnBaseDatos.Name" xml:space="preserve">
+    <value>btnBaseDatos</value>
+  </data>
+  <data name="&gt;&gt;btnBaseDatos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBaseDatos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnBaseDatos.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btn_Server.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 33</value>
+  </data>
+  <data name="btn_Server.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_Server.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 50</value>
+  </data>
+  <data name="btn_Server.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btn_Server.Text" xml:space="preserve">
+    <value>Servidor</value>
+  </data>
+  <data name="&gt;&gt;btn_Server.Name" xml:space="preserve">
+    <value>btn_Server</value>
+  </data>
+  <data name="&gt;&gt;btn_Server.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Server.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Server.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnSalir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>721, 33</value>
+  </data>
+  <data name="btnSalir.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnSalir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 50</value>
+  </data>
+  <data name="btnSalir.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="btnSalir.Text" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="&gt;&gt;btnSalir.Name" xml:space="preserve">
+    <value>btnSalir</value>
+  </data>
+  <data name="&gt;&gt;btnSalir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSalir.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSalir.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="listBD.ItemHeight" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="listBD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>721, 110</value>
+  </data>
+  <data name="listBD.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="listBD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 148</value>
+  </data>
+  <data name="listBD.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;listBD.Name" xml:space="preserve">
+    <value>listBD</value>
+  </data>
+  <data name="&gt;&gt;listBD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listBD.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnMostrar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 268</value>
+  </data>
+  <data name="btnMostrar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="btnMostrar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 36</value>
+  </data>
+  <data name="btnMostrar.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btnMostrar.Text" xml:space="preserve">
+    <value>Mostrar</value>
+  </data>
+  <data name="&gt;&gt;btnMostrar.Name" xml:space="preserve">
+    <value>btnMostrar</value>
+  </data>
+  <data name="&gt;&gt;btnMostrar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMostrar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnMostrar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnExportar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 268</value>
+  </data>
+  <data name="btnExportar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="btnExportar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 36</value>
+  </data>
+  <data name="btnExportar.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="btnExportar.Text" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="&gt;&gt;btnExportar.Name" xml:space="preserve">
+    <value>btnExportar</value>
+  </data>
+  <data name="&gt;&gt;btnExportar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExportar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnExportar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnImportar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 268</value>
+  </data>
+  <data name="btnImportar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="btnImportar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 36</value>
+  </data>
+  <data name="btnImportar.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="btnImportar.Text" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="&gt;&gt;btnImportar.Name" xml:space="preserve">
+    <value>btnImportar</value>
+  </data>
+  <data name="&gt;&gt;btnImportar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnImportar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnImportar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnImportarConetido.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 268</value>
+  </data>
+  <data name="btnImportarConetido.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="btnImportarConetido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 36</value>
+  </data>
+  <data name="btnImportarConetido.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="btnImportarConetido.Text" xml:space="preserve">
+    <value>Importar Contenido</value>
+  </data>
+  <data name="&gt;&gt;btnImportarConetido.Name" xml:space="preserve">
+    <value>btnImportarConetido</value>
+  </data>
+  <data name="&gt;&gt;btnImportarConetido.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnImportarConetido.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnImportarConetido.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1048, 554</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Musin Motor</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

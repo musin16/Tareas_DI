@@ -86,12 +86,15 @@ namespace MotorGestorFinal
             if (txtConsulta.Text != "")
             {
                 concectarBD cn = new concectarBD(txtServidor.Text, txtBaseDatos.Text, txtUsuario.Text, txtContra.Text);
-                String consulta = txtConsulta.Text;
-                if (consulta.StartsWith("Select"))
+                String consulta = txtConsulta.Text.ToLower();
+                if (consulta.StartsWith("select"))
                 {
-                    cn.select(consulta);
+                    listBD.Items.Clear();
+                   List<string> mp= cn.select1(consulta);
+                    for (int i = 0;i<mp.Count;i++)
+                        listBD.Items.Add(mp[i]);
                 }
-                else if (consulta.StartsWith("Update") || consulta.StartsWith("Insert"))
+                else if (consulta.StartsWith("update") || consulta.StartsWith("insert"))
                 {
                     cn.executarInserModiMucho(consulta);
                 }
@@ -101,16 +104,21 @@ namespace MotorGestorFinal
                     {
                         BDdatos bd = new BDdatos();
                         bd.ShowDialog();
-                        this.Hide();
+                       
                     }
                     else if (consulta.StartsWith("show tables"))
                     {
+                        listBD.Items.Clear();
                         listaBaseDatos = cn.listarBasesDeDatos(txtConsulta.Text);
 
                         for (int i = 0; i < listaBaseDatos.Count; i++)
                         {
                             listBD.Items.Add(listaBaseDatos[i]);
                         }
+                    }else if (consulta.StartsWith("use"))
+                    {
+                        String[] bd=consulta.Split(' ');
+                        txtBaseDatos.Text = bd[1];
                     }
                 }
             }
@@ -154,6 +162,15 @@ namespace MotorGestorFinal
                 }
             }
                
+        }
+
+        private void btnImportarConetido_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd=new OpenFileDialog();
+            if (ofd.ShowDialog()==DialogResult.OK)
+            {
+                cn.Insertar2(ofd.FileName);
+            }
         }
     }
 }
