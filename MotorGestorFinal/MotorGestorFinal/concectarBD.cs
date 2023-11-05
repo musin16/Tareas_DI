@@ -162,6 +162,10 @@ namespace MotorGestorFinal
                 letra = "";
             }
 
+            if (File.Exists(ficheroTab))
+            {
+               File.Delete(ficheroTab);
+            }
                 File.WriteAllLines(ficheroTab, lista);
             importar(ficheroTab);
 
@@ -172,11 +176,15 @@ namespace MotorGestorFinal
             String palabra = File.ReadAllText(nombre).Replace(";", ",");
             String [] caracterSeparador = File.ReadAllLines(nombre);
             String[] tabla =palabra.Split(' ');
-            ficheroTab = "C:\\Seguridad\\" + tabla[2];
-            string inser = $"Insert into {tabla[2]} values(";
+            ficheroTab = "C:\\Seguridad\\tablas.sql" ;
+            string inser = $"Insert into clientes values(";
             List<string> consultar = File.ReadAllLines(nombre).Select(x => $"{inser}" +
             $"{string.Join(",", x.Split(';').Select(y => $"'{y}'"))});").ToList();
-            File.WriteAllLines(ficheroTab, consultar);
+            if (File.Exists(ficheroTab))
+            {
+               File.Delete(ficheroTab);
+            }
+                File.WriteAllLines(ficheroTab, consultar);
             importar(ficheroTab);
         }
 
