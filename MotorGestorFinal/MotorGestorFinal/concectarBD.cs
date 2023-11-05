@@ -137,12 +137,11 @@ namespace MotorGestorFinal
         internal void insertar(string nombre)
         {
             String palabra = File.ReadAllText(nombre).Replace(";", ",");
-            String [] tabla = palabra.Split(' ');
             String[] listaFilas = palabra.Split('\n');
             String letra = "";
             List<String> lista = new List<String>();
-            ficheroTab = "C:\\Seguridad\\" + tabla[2];
-            String inser = "Insert into " + tabla[2] + " values(";
+            ficheroTab = "C:\\Seguridad\\tablas.sql" ;
+            String inser = "Insert into clientes values(";
             for (int i = 0; i < listaFilas.Count(); i++)
             {
                 String[] campos = listaFilas[i].Split(',');
