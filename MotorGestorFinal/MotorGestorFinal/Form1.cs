@@ -169,6 +169,8 @@ namespace MotorGestorFinal
             OpenFileDialog ofd=new OpenFileDialog();
             if (ofd.ShowDialog()==DialogResult.OK)
             {
+                DialogResult r = MessageBox.Show("Selecciona la tabla a la que quieres introducir los datos","Tablas",MessageBoxButtons.YesNo);
+
                 cn.Insertar2(ofd.FileName);
             }
         }

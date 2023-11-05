@@ -100,14 +100,17 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MotorGestorFinal.Properties.Resources.oscuridad;
-            this.ClientSize = new System.Drawing.Size(1056, 638);
+            this.ClientSize = new System.Drawing.Size(1048, 554);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.Campos);
             this.Controls.Add(this.Atributos);
             this.Controls.Add(this.Tablas);
             this.Controls.Add(this.BaseDatos);
+            this.Location = new System.Drawing.Point(400, 0);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "BDdatos";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "BDdatos";
             this.Load += new System.EventHandler(this.BDdatos_Load);
             this.ResumeLayout(false);
